@@ -84,6 +84,21 @@ main {
         }
 
         #droite {
+            img {
+                transform: rotate(180deg);
+                opacity: 50%;
+                position: absolute;
+
+                #relative {
+                    position: relative;
+
+                    img {
+                        width: 280px;
+                        height: 280px;
+                        transform: rotate(0deg);
+                    }
+                }
+            }
         }
     }
 }
