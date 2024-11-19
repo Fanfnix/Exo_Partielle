@@ -1,3 +1,37 @@
-i {
-    font-size: 100px;
+.bigelow-rules-regular {
+    font-family: "Bigelow Rules", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242633;
+
+    img {
+        height: 80px;
+        width: 215px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 99%;
+        background-color: black;
+
+        a {
+            color: white;
+            font-size: 40px;
+            font-family: "Bigelow Rules", serif;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+        }
+    }
 }
