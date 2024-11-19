@@ -69,13 +69,21 @@ main {
             font-weight: 400;
 
             button {
-                background-color: black;
+                background-color: #433C87;
                 color: white;
                 border: none;
-                border-radius: 50%;
+                border-radius: 10px;
                 width: 200px;
                 height: 50px;
+                transition: 0.3s linear;
+
+                &:hover {
+                    background-color: #8B81EC;
+                }
             }
+        }
+
+        #droite {
         }
     }
 }
